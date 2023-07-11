@@ -11,6 +11,6 @@ I'm also a guitarist 🎸
 ```ts
 function checkMyWebsite() {
     const URL = "https://mikewilsonstl.com/";
-	window.open(URL, '_blank');
+    window.open(URL, '_blank');
 }
 ```
