@@ -6,10 +6,11 @@ I’m working to grow in as many areas of software development as I can to find 
 
 I love Linux & Neovim and I'm learning to love Rust 😄
 
-🎸 - I'm also a guitarist!
+I'm also a guitarist 🎸
 
-```js
-function checkMyWebsite(): {
-	window.open("https://mikewilsonstl.com", '_blank');
+```ts
+function checkMyWebsite() {
+    const URL = "https://mikewilsonstl.com/";
+	window.open(URL, '_blank');
 }
 ```
