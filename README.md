@@ -1,16 +1,15 @@
-### Hi there 👋
+### Hey, I'm Mike 👨‍💻
 
-<!--
-**MikeWilsonSTL/MikeWilsonSTL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m a front-end oriented junior developer based in St. Louis, MO.
 
-Here are some ideas to get you started:
+I’m working to grow in as many areas of software development as I can to find my niche.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I love Linux & Neovim and I'm learning to love Rust 😄
+
+🎸 - I'm also a guitarist!
+
+```js
+function checkMyWebsite(): {
+	window.open("https://mikewilsonstl.com", '_blank');
+}
+```
