@@ -1,6 +1,6 @@
 ### Hey, I'm Mike 👨‍💻
 
-I’m a front-end oriented junior developer based in St. Louis, MO.
+I’m a front-end oriented developer based in St. Louis, MO.
 
 I love cybersecurity, Linux & Neovim and I'm currently learning Rust.
 
