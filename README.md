@@ -28,9 +28,7 @@ I need, parse the JSON, move on to the next node. That solves the problem, but
 it didn't teach me the model. So I built a clickable Redfish browser that puts
 every property next to its DMTF schema description, units, and enum meaning,
 mainly to learn the newer liquid-cooling parts of the spec (CDUs, pumps, leak
-detection). It also checks that each resource's `@odata.id` matches where it
-was actually served, which turned up 21 copy-paste errors in DMTF's own
-mockups. Python stdlib and plain JS, no build step, no dependencies. Live mode
+detection). Python stdlib and plain JS, no build step, no dependencies. Live mode
 only sends GETs, so it can't change anything on a real BMC.  
 [Live demo](https://redfish.mikewilsonstl.com) ·
 [Docs](https://docs.mikewilsonstl.com/docs/redfish-explorer/) · AGPL-3.0
@@ -47,14 +45,8 @@ in the failure handling: "identical" servers that turned out to have two
 different SAS controllers, and I/O pressure I had to tune down until the
 errors stopped. This project taught me more about storage media in a year than
 I ever thought I would learn in my entire life. The code belongs to a former
-employer, so I can't post it, but I'm happy to walk through it.
-
-**[SNchecker](https://snchecker.com)**  
-A serial-number scanner for handing verification work to technicians. The page
-is empty and white on purpose. A found serial turns the whole thing green, a
-missing one red, a repeat yellow, each with its own chime, so it works from
-across the room or by ear on a loud data hall floor. Runs entirely in the
-browser and saves nothing.
+employer, so I can't post it, but I'm happy to walk through the journey and 
+general steps taken.
 
 **[eMMC-Checker](https://github.com/MikeWilsonSTL/eMMC-Checker)**  
 Takes `mmc-utils` output and shows it the way `smartctl` would, so you can
@@ -69,14 +61,16 @@ Makes a new Bash script from a template and opens it in your editor.
 
 ## At work
 
-I can't share this code, but I can tell you what it does:
+I've made a comprehensive tool suite during my time in my current role. Some
+of those tools accomplish the following:
 
 - Collects every BMC page, log export, crash dump, and remote `dmesg` an RMA
   needs in one command, instead of a round of manual screenshots per case.
-- Turns a serial number into a rack location in about 2 seconds. It used to
-  take a few minutes of clicking through DCIM.
-- Treats hardware vendors as config instead of `if` statements, so adding one
-  doesn't touch the core workflow.
+- Resolves a serial number into a rack location in about 2 seconds. It used to
+  take a few minutes of clicking through DCIM and I hate leaving the terminal.
+  This way is much faster for CLI-oriented folks.
+- An automated RMA pipeline that treats hardware vendors as config data instead
+  of a rat's nest of `if` statements, so adding one doesn't affect the core workflow.
 
 I also wrote my team's safety standard for automation scripts, and fixed a bug
 in our shared shutdown script that could have powered off nodes still running
@@ -101,7 +95,7 @@ migrations, breakfix, fiber testing, site audits, you name it. I ended up
 leading jobs for clients ranging from local businesses to hyperscalers. Before
 that, about a decade of freelance Linux work for small businesses: web and
 email servers, DNS, TLS, firewalls, backups. I also self-hosted my own email
-for a while, which gave me a deep respect for full-time email providers.
+for a years, which gave me a deep respect for full-time email providers.
 
 CDCP certified, Google Cybersecurity Certificate, A.A.S. in Computer Systems
 Management.
