@@ -1,10 +1,6 @@
 # Mike Wilson 🐧🎸🎤
 
-I'm a data center engineer, Linux sysadmin, and musician. I spend most of my
-time building my homelab, songwriting, and fixing the songs and systems I break
-along the way.
-
-By day I'm a Data Center Engineer at a major cloud infrastructure provider,
+I'm a Data Center Engineer at a major cloud infrastructure provider,
 working on a fleet of GPU servers (NVIDIA H100/H200, AMD MI300X-class) that
 fail a lot more often than anyone would like. Most of my job is RMAs. The rest
 of it, and most of my spare time, goes into writing the tooling that makes the
@@ -47,17 +43,6 @@ errors stopped. This project taught me more about storage media in a year than
 I ever thought I would learn in my entire life. The code belongs to a former
 employer, so I can't post it, but I'm happy to walk through the journey and 
 general steps taken.
-
-**[eMMC-Checker](https://github.com/MikeWilsonSTL/eMMC-Checker)**  
-Takes `mmc-utils` output and shows it the way `smartctl` would, so you can
-actually read an eMMC's health at a glance.
-
-**[youtube-to-rss](https://github.com/MikeWilsonSTL/youtube-to-rss)**  
-Pulls all of your YouTube subscriptions into an OPML file for any
-video-capable RSS reader. Invidious instances optional.
-
-**[newsh](https://github.com/MikeWilsonSTL/newsh)**  
-Makes a new Bash script from a template and opens it in your editor.
 
 ## At work
 
