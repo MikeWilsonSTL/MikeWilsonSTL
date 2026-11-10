@@ -79,7 +79,7 @@ I worked in data centers all across North America: installs, de-installs, site
 migrations, breakfix, fiber testing, site audits, you name it. I ended up
 leading jobs for clients ranging from local businesses to hyperscalers. Before
 that, about a decade of freelance Linux work for small businesses: web and
-email servers, DNS, TLS, firewalls, backups. I also self-hosted my own email
+email servers, DNS, TLS, firewalls, backups. I also self-hosted my email
 for years, which gave me a deep respect for email providers.
 
 CDCP certified, Google Cybersecurity Certificate, A.A.S. in Computer Systems
